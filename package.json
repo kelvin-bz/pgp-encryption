@@ -1,0 +1,24 @@
+{
+  "name": "secure-file-handling",
+  "version": "1.0.0",
+  "description": "A demonstration of secure file handling with PGP encryption and ZIP compression",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "security",
+    "encryption",
+    "file-handling",
+    "pgp",
+    "zip"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "openpgp": "^5.5.0",
+    "unzipper": "^0.10.11"
+  }
+}
